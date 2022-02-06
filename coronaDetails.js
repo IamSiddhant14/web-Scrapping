@@ -34,7 +34,7 @@ let contentArr =  selTool('.maincounter-number span');//This will bring all the 
 
 
 for( let i =0; i< contentArr.length ; i++){
-
+//We have loaded all the function of cheerio on the "seltool" variable because of which we are now able to use that function's on selTool now
     let data = selTool(contentArr[i]).text()//Converting it into proper formate  , which would result in properly giving out the right data only;
     // console.log(data);
 
