@@ -24,6 +24,8 @@ function handleHtml(html){
 
 let selTool = cheerio.load(html);//With this load functionality we could use the selctor tool provided by cheerio 
 
+
+// Select the element via mouse, rigth click ,inspect then double click the class/id name ,press ctrl+f Paste the name of the class or id selector with there proper syantx of #/.   and this will return you that array of matching results if any
 let contentArr =  selTool('.maincounter-number span');//This will bring all the html associated with the respective class(Selector)
 // console.log(contentArr);
 
