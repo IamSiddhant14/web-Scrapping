@@ -1,3 +1,5 @@
+//npm init - To form a package.json file containg all of our dependies
+
 // npm install request - With the help of a script we could request an website server to extract its html data 
 
 //npm install cheerio - To extract meaning full data from the website we use cheerio

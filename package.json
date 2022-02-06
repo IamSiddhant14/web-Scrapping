@@ -1,6 +1,25 @@
 {
-  "dependencies": {
+  "name": "web-scrapping",
+  "version": "1.0.0",
+  "main": "coronaDetails.js",
+  "Dependencies": {
     "cheerio": "^1.0.0-rc.10",
+    "node": "^17.4.0",
     "request": "^2.88.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamSiddhant14/web-Scrapping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamSiddhant14/web-Scrapping/issues"
+  },
+  "homepage": "https://github.com/IamSiddhant14/web-Scrapping#readme",
+  "description": ""
 }
